@@ -1,0 +1,68 @@
+{
+    "reply": {
+        "total_count": 172,
+        "result_count": 1,
+        "incidents": [
+            {
+                "incident_id": "179",
+                "incident_name": null,
+                "creation_time": 1689836348316,
+                "modification_time": 1689836379646,
+                "detection_time": null,
+                "status": "new",
+                "severity": "high",
+                "description": "7 'Powershell Activity - 3990759154' alerts prevented by XDR Agent on host dat-cortex  involving user n/a\\administrator",
+                "assigned_user_mail": null,
+                "assigned_user_pretty_name": null,
+                "alert_count": 7,
+                "low_severity_alert_count": 0,
+                "med_severity_alert_count": 0,
+                "high_severity_alert_count": 7,
+                "critical_severity_alert_count": 0,
+                "user_count": 1,
+                "host_count": 1,
+                "notes": null,
+                "resolve_comment": null,
+                "resolved_timestamp": null,
+                "manual_severity": null,
+                "manual_description": null,
+                "xdr_url": "https://hoadq.xdr.sg.paloaltonetworks.com/incident-view?caseId=179",
+                "starred": false,
+                "hosts": [
+                    "dat-cortex:3904d047251c4b99970f0dd9375f9860"
+                ],
+                "users": [
+                    "n/a\\administrator"
+                ],
+                "incident_sources": [
+                    "XDR Agent"
+                ],
+                "rule_based_score": 100,
+                "predicted_score": 100,
+                "manual_score": null,
+                "aggregated_score": 100,
+                "wildfire_hits": 0,
+                "alerts_grouping_status": "Enabled",
+                "mitre_tactics_ids_and_names": [
+                    "TA0002 - Execution",
+                    "TA0005 - Defense Evasion"
+                ],
+                "mitre_techniques_ids_and_names": [
+                    "T1059 - Command and Scripting Interpreter",
+                    "T1059.001 - Command and Scripting Interpreter: PowerShell",
+                    "T1140 - Deobfuscate/Decode Files or Information"
+                ],
+                "alert_categories": [
+                    "Malware"
+                ],
+                "original_tags": [
+                    "DS:PANW/XDR Agent"
+                ],
+                "tags": [
+                    "DS:PANW/XDR Agent"
+                ]
+            }
+        ],
+        "restricted_incident_ids": []
+    }
+}
